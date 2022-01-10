@@ -16,14 +16,12 @@ import madfinal.employeetracersystem.models.Users;
 
 public class HomeEmployeeFragment extends Fragment {
 
-
-
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_home_employee, container, false);
 
-        TextView welcomeTxt = view.getRootView().findViewById(R.id.welcomeText);
+        TextView welcomeTxt = view.getRootView().findViewById(R.id.welcomeTextEmployee);
         welcomeTxt.setText("Welcome " + Logged.user.name + " " + Logged.user.surname);
         return view;
     }

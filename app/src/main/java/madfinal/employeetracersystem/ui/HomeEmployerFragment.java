@@ -20,7 +20,7 @@ public class HomeEmployerFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_home_employer, container, false);
 
-        TextView welcomeTxt = view.getRootView().findViewById(R.id.welcomeText);
+        TextView welcomeTxt = view.getRootView().findViewById(R.id.welcomeTextEmployer);
         welcomeTxt.setText("Welcome " + Logged.user.name + " " + Logged.user.surname);
         return view;
     }
