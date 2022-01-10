@@ -5,6 +5,6 @@ import java.sql.Timestamp;
 
 public class Check {
     public int userSSN;
-    public Timestamp chekinTime;
+    public Timestamp checkinTime;
     public Timestamp checkoutTime;
 }
