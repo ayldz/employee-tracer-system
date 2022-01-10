@@ -29,6 +29,8 @@ public  class Users {
         user2.telephoneNumber = "5315924501";
         user2.address = "mentese/ mugla";
         user2.salary = 3000;
+        user2.name = "Zehra";
+        user2.surname = "Rıdvanoğulları";
 
         users.add(user2);
 
