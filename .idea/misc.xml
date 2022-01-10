@@ -3,6 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/alper/OneDrive/Desktop/mad/employee-tracer-system/app/src/main/res/layout/activity_employee_dashboard.xml" value="0.5" />
+        <entry key="..\:/Users/alper/OneDrive/Desktop/mad/employee-tracer-system/app/src/main/res/layout/activity_employer_dashboard.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/alper/OneDrive/Desktop/mad/employee-tracer-system/app/src/main/res/layout/activity_main_dashboard.xml" value="0.33" />
+        <entry key="..\:/Users/alper/OneDrive/Desktop/mad/employee-tracer-system/app/src/main/res/layout/fragment_add_user.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/alper/OneDrive/Desktop/mad/employee-tracer-system/app/src/main/res/layout/fragment_advance.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/alper/OneDrive/Desktop/mad/employee-tracer-system/app/src/main/res/layout/fragment_approvement.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/alper/OneDrive/Desktop/mad/employee-tracer-system/app/src/main/res/layout/fragment_check_employee.xml" value="0.23143115942028986" />
+        <entry key="..\:/Users/alper/OneDrive/Desktop/mad/employee-tracer-system/app/src/main/res/layout/fragment_check_employer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/alper/OneDrive/Desktop/mad/employee-tracer-system/app/src/main/res/layout/fragment_dashboard.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/alper/OneDrive/Desktop/mad/employee-tracer-system/app/src/main/res/layout/fragment_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/alper/OneDrive/Desktop/mad/employee-tracer-system/app/src/main/res/layout/fragment_home_employee.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/alper/OneDrive/Desktop/mad/employee-tracer-system/app/src/main/res/layout/fragment_home_employer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/alper/OneDrive/Desktop/mad/employee-tracer-system/app/src/main/res/layout/fragment_notifications.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/alper/OneDrive/Desktop/mad/employee-tracer-system/app/src/main/res/layout/fragment_permit.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/alper/OneDrive/Desktop/mad/employee-tracer-system/app/src/main/res/menu/bottom_nav_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/alper/OneDrive/Desktop/mad/employee-tracer-system/app/src/main/res/menu/employee_nav_bar.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/alper/OneDrive/Desktop/mad/employee-tracer-system/app/src/main/res/menu/employer_nav_bar.xml" value="0.20520833333333333" />
         <entry key="..\:/repos/mobile-application-development-final/employee-tracer-system/app/src/main/res/layout/activity_advance_money.xml" value="0.3491847826086957" />
         <entry key="..\:/repos/mobile-application-development-final/employee-tracer-system/app/src/main/res/layout/activity_employee_dashboard.xml" value="0.3532608695652174" />
         <entry key="..\:/repos/mobile-application-development-final/employee-tracer-system/app/src/main/res/layout/activity_employer_dashboard.xml" value="0.3532608695652174" />

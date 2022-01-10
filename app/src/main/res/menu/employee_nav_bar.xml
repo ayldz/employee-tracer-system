@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_check_employee"
+        android:icon="@drawable/ic_baseline_compare_arrows_24"
+        android:title="Check" />
+
+    <item
+        android:id="@+id/nav_home_employee"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/nav_advance"
+        android:icon="@drawable/ic_baseline_monetization_on_24"
+        android:title="Advance Money"/>
+
+    <item
+        android:id="@+id/nav_permit"
+        android:icon="@drawable/ic_baseline_date_range_24"
+        android:title="Permit Day"/>
+</menu>

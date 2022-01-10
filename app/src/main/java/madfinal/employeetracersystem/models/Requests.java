@@ -1,7 +1,5 @@
 package madfinal.employeetracersystem.models;
 
-import androidx.annotation.NonNull;
-
 import java.util.ArrayList;
 import java.util.List;
 

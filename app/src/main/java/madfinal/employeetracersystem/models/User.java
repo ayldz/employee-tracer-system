@@ -1,6 +1,5 @@
 package madfinal.employeetracersystem.models;
 
-import java.util.Random;
 import java.util.UUID;
 
 public class User {

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_check_employer"
+        android:icon="@drawable/ic_baseline_compare_arrows_24"
+        android:title="Check" />
+
+    <item
+        android:id="@+id/nav_home_employer"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/nav_approvement"
+        android:icon="@drawable/ic_baseline_check_circle_24"
+        android:title="Aprovements"/>
+
+    <item
+        android:id="@+id/nav_adduser"
+        android:icon="@drawable/ic_baseline_person_add_24"
+        android:title="Add User"/>
+</menu>
