@@ -1,10 +1,10 @@
 package madfinal.employeetracersystem.models;
 
-import java.sql.Time;
-import java.sql.Timestamp;
+
+import com.google.firebase.Timestamp;
 
 public class Check {
-    public int userSSN;
+    public long userSSN;
     public Timestamp checkinTime;
     public Timestamp checkoutTime;
 }

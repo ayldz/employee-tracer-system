@@ -9,7 +9,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import madfinal.employeetracersystem.models.Checks;
 import madfinal.employeetracersystem.models.PositionName;
+import madfinal.employeetracersystem.models.Requests;
 import madfinal.employeetracersystem.models.Users;
 
 public class MainActivity extends AppCompatActivity {
@@ -21,6 +23,21 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Thread thread = new Thread(){
+            @Override
+            public void run() {
+                Users.init();
+                Requests.init();
+                Checks.init();
+            }
+        };
+
+        thread.start();
+
+      //  Users.init();
+       // Requests.init();
+       // Checks.init();
 
         txtSSN = (EditText) findViewById(R.id.txtSSN);
         btnLogin = (Button) findViewById(R.id.btnLogin);

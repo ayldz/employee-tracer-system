@@ -1,17 +1,24 @@
 package madfinal.employeetracersystem.models;
 
+import android.util.Log;
+
+import java.sql.Timestamp;
+import java.util.Date;
+import java.util.EventListener;
 import java.util.UUID;
 
+import madfinal.employeetracersystem.Logged;
+
 public class User {
-    public UUID id;
+
+    public long SSN;
     public String name;
     public String surname;
-    public int SSN;
     public String telephoneNumber;
     public String email;
     public String address;
     public PositionName position;
-    public float salary;
+    public long salary;
 
     //employees methods
     public void request(Request request, RequestType type){
@@ -21,9 +28,18 @@ public class User {
         Requests.addRequest(request);
     }
 
-    public void checkInOut(){
+   /* public void checkInOut(boolean isIN){
+        if (isIN) {
+            Check check = Checks.getCheck(SSN);
+            check.checkoutTime = new Timestamp(new Date().getTime());
+        }
+        else {
+            Check check = new Check();
+            check.userSSN = SSN;
+            check.checkinTime = new Timestamp(new Date().getTime());
+        }
 
-    }
+    }*/
 
     public float calculateSalary(){
         float newSalary = salary;

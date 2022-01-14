@@ -11,7 +11,18 @@
             android:layout_height="wrap_content"
             android:text="Check Fragment"
             android:textSize="30sp"
-            android:layout_centerInParent="true"/>
+            android:layout_centerInParent="true"
+       android:id="@+id/welcomeTextEmployee2"/>
+
+
+        <Button
+            android:id="@+id/btnCheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check IN / out"
+            android:layout_below="@+id/welcomeTextEmployee2"
+            android:layout_centerHorizontal="true"
+            />
 
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,5 +1,5 @@
 package madfinal.employeetracersystem.models;
-
+/*
 public class Position {
     private  int id;
     private PositionName positionName;
@@ -9,3 +9,4 @@ public class Position {
         return positionName;
     }
 }
+*/

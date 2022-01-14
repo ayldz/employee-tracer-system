@@ -1,15 +1,14 @@
 package madfinal.employeetracersystem.models;
 
-import java.sql.Timestamp;
-import java.util.UUID;
+
+import com.google.firebase.Timestamp;
 
 public  class Request{
-    public UUID requestID;
-    public int employyeeSSN;
+    public long employyeeSSN;
     public RequestType type;
     public boolean isApproved;
 
-    public float amount;
+    public long amount;
     public String excuse;
     public Timestamp startDate;
     public Timestamp endDate;
